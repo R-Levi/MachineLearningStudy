@@ -1,10 +1,10 @@
 import numpy as np
 import os
 import matplotlib.pyplot as plt
-#导入warnings包，利用过滤器来实现忽略警告语句。
 import warnings
 warnings.filterwarnings(action="ignore",message="^internal gelsd")
-np.random.seed(1)
+np.random.seed(1024)
+
 #保存图片
 PROJECT_ROOT_DIR="."
 MODEL_ID="linear_models"
@@ -30,6 +30,7 @@ def draw_pic(X,Y,eta,res,num):
 def cost_function(x,y,theta,m):
     cost = np.sum((x.dot(theta)-y)**2)
     return cost/(2*m)
+
 #计算梯度
 def gradient(x,y,theta):
     grad = np.empty(len(theta))
@@ -38,20 +39,20 @@ def gradient(x,y,theta):
     for i in range(1,len(theta)):
         grad[i] = np.transpose(x.dot(theta) - y).dot(r_x)
     return grad.reshape([2,1])
+
 #梯度下降
-def gradient_descent(x,y,theta,a,m):
+def gradient_descent(x,y,theta,lr,m):
     while True:
         old_theta = theta
         grad  = gradient(x,y,theta)
-        theta = theta - a * grad
+        theta = theta - lr * grad
         if abs(cost_function(x,y,old_theta,m)-cost_function(x,y,theta,m)) < 1e-15:
             break
     return theta
 
 if __name__ == '__main__':
     #创建数据
-    np.random.seed(0)
-    X = 2*np.random.rand(200,1)#100行数据
+    X = 2*np.random.rand(200,1)
     Y = 4+3*X+np.random.rand(200,1)
     m=200
     #plt.scatter(X,Y,c ="black",s=10)
@@ -67,5 +68,5 @@ if __name__ == '__main__':
     draw_pic(X, Y, 0.0005, res, 132)
     res = gradient_descent(new_X, Y, theta, 0.002, m)
     draw_pic(X, Y, 0.002, res, 133)
-    save_pic("batchGradientDescent_result")
+    # save_pic("batchGradientDescent_result")
     plt.show()
