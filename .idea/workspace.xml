@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d5e6d1d-9e4e-4cc9-a181-8b768d0dfbed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Logist_Regression/softmax_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/LR.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logist_Regression/LR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/LR2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logist_Regression/LR2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/LR3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/digital recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logist_Regression/digital recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/digital_show.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/ex2data1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/ex2data2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/sk_out.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logist_Regression/sklearn_LogisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logist_Regression/sklearn_LogisticRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,29 +58,7 @@
     <favorites_list name="MachineLearningStudy" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="softmax_regression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Logist_Regression/softmax_regression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-              <folding>
-                <element signature="e#22#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="digital recognition.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logist_Regression/digital recognition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -187,7 +154,7 @@
             <path>
               <item name="MachineLearningStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearningStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Logist_Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="PCA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680166704944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LR">
+      <created>1680188516017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680188516017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -382,7 +356,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32722145" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32863188" />
@@ -391,13 +364,13 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3079096" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32722145" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.29055008" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.22990033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.22990033" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956812" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2980226" />
       <window_info anchor="right" x="754" y="181" width="611" height="505" id="SciView" order="4" weight="0.4770764" />
       <window_info id="Structure" order="1" sideWeight="0.50070524" side_tool="true" weight="0.16810632" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.259887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.259887" />
       <window_info id="Favorites" order="2" sideWeight="0.50070524" side_tool="true" weight="0.16810632" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,7 +388,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="linear-regression" />
-    <option name="LAST_COMMIT_MESSAGE" value="linear-regression" />
+    <MESSAGE value="LR" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -454,20 +428,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/神经网络/digital_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/神经网络/NN2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/线性回归/BatchGradientDescent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -477,13 +437,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/K-means/curry.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PCA/PCA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SVM/SVM2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -550,13 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-means/K-means.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -751,16 +697,55 @@
     <entry file="file://$PROJECT_DIR$/Logist_Regression/digital recognition.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Logist_Regression/softmax_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="249">
+          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding>
             <element signature="e#22#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/PCA2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#11#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/PCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/K-means2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1642">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#17#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/K-means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#9#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
