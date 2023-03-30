@@ -1,17 +1,10 @@
-#coding:utf-8
 import numpy as np
-#导入操作系统
 import os
-#画图
-#%matplotlib inline
-from mpl_toolkits import mplot3d
 import matplotlib.pyplot as plt
 #导入warnings包，利用过滤器来实现忽略警告语句。
 import warnings
 warnings.filterwarnings(action="ignore",message="^internal gelsd")
-# 利用随机数种子，每次生成的随机数相同
 np.random.seed(1)
-
 #保存图片
 PROJECT_ROOT_DIR="."
 MODEL_ID="linear_models"
