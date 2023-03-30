@@ -22,8 +22,36 @@ $$
 
 ## 逻辑回归
 
-假设数据服从伯努利分布，通过极大似然估计，运用梯度下降求解，用于二分类问题
+假设数据服从伯努利分布，通过极大似然估计，运用梯度下降求解，用于二分类问题，解决线性问题
+
+本质上就是在线性回归后边加上了一个sigmoid函数
 
 模型定义：
 
 <img src="C:\Users\LEVI\AppData\Roaming\Typora\typora-user-images\image-20230330165728687.png" alt="image-20230330165728687" style="zoom:67%;" />
+
+**这个e是怎么来的？**
+
+利用贝叶斯建模，给定x，输出是C1类的概率为：
+
+<img src="C:\Users\LEVI\AppData\Roaming\Typora\typora-user-images\image-20230330170452523.png" alt="image-20230330170452523" style="zoom:80%;" />
+
+使用极大似然是估计来确定参数
+
+<img src="C:\Users\LEVI\AppData\Roaming\Typora\typora-user-images\image-20230330170915124.png" alt="image-20230330170915124" style="zoom:67%;" />
+
+
+
+
+
+## PCA
+
+## **朴素贝叶斯**
+
+## 决策树
+
+## SVM
+
+## 聚类
+
+## 集成学习

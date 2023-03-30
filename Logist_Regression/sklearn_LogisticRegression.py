@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#sklearn实现逻辑回归
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 import numpy as np
@@ -29,7 +27,6 @@ def logiststicRegression():
     # 逻辑回归
     model = LogisticRegression()
     model.fit(x_train, y_train)
-
     #画图
     #print(model.coef_)#特征系数
     #print(model.intercept_)#截距

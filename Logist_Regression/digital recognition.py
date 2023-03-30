@@ -2,23 +2,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import math
-#用于打开matlab文件
 import scipy.io as sio
 import scipy.optimize as op
 
-
-
-#读取matlab的数据集，包括是20*20的像素以及0-9标签
-matinfo = sio.loadmat("ex3data1.mat")
-X = matinfo['X']#20*20像素
-Y = matinfo['y'][:,0]#标签
-#print(Y)
-#y = 1*(Y==10)
-#print(y)
-#print(np.shape(X),np.shape(Y))
-m = np.size(X,0)
-rand_indices = np.random.permutation(m)#打乱顺序
-dig = X[rand_indices[0:100],:]#选择100行
 
 
 #显示数字
@@ -42,19 +28,18 @@ def show_num(x):
     plt.axis('off')
     #plt.savefig('digital_show.png')
     plt.show()
-#show_num(dig)
-
 
 
 #逻辑回归多分类
 def sigmoid(z):
     return 1.0/(1.0+np.exp(-z))
+
 def costfunction(theta,x,y,lamd):
     m = len(y)
     h = sigmoid(x.dot(theta))
     j = -1/m*(y.dot(np.log(h))+(1-y).dot(np.log(1-h)))+lamd/(2*m)*theta[1:].dot(theta[1:])
-    #print(j)
     return j
+
 #计算梯度
 def gradfunction(theta,x,y,lamd):
     m = len(y)
@@ -63,6 +48,8 @@ def gradfunction(theta,x,y,lamd):
     grad[0] = 1/m*(x[:,0].dot(h-y))
     grad[1:] = 1/m*(x[:,1:].T.dot(h-y))+lamd*theta[1:]/m
     return grad
+
+#多分类 1对多
 def OnevsAll(x,y,lamd):
     m,n = np.shape(x)
     all_theta = np.zeros((10,n+1))#一个类一组Θ
@@ -73,11 +60,10 @@ def OnevsAll(x,y,lamd):
         init_theta = np.zeros((n+1,))#401维的向量
         result = op.minimize(costfunction,x0=init_theta,method='BFGS',jac=gradfunction,args=(x,y==num,lamd))
         all_theta[i,:]=result.x
+
     print(result.success)
     return all_theta
 
-lamd=0.1
-onevs_all = OnevsAll(X, Y,lamd)
 # 预测值函数
 def predictOneVsAll(all_theta, x):
     m = np.size(x,0)
@@ -85,14 +71,27 @@ def predictOneVsAll(all_theta, x):
     p = np.argmax(x.dot(all_theta.T), axis=1)#np.argmax(a)取出a中元素最大值所对应的索引（索引值默认从0开始）,axis=1即按照行方向搜索最大值
     return p
 
-pred = predictOneVsAll(onevs_all, X)
-print('Training Set Accuracy: ', np.sum(pred == (Y % 10))/np.size(Y, 0))
+
+if __name__ == '__main__':
+    # 读取matlab的数据集，包括是20*20的像素以及0-9标签
+    matinfo = sio.loadmat("ex3data1.mat")
+    X = matinfo['X']  # 20*20像素
+    Y = matinfo['y'][:, 0]  # 标签
+
+    m = np.size(X, 0)
+    rand_indices = np.random.permutation(m)
+    dig = X[rand_indices[0:100], :]  # 选择100行
+
+    lamd = 0.1
+    onevs_all = OnevsAll(X, Y, lamd)
+
+    pred = predictOneVsAll(onevs_all, X)
+    print('Training Set Accuracy: ', np.sum(pred == (Y % 10))/np.size(Y, 0))
 
 
 '''
 #使用sklearn预测
 from sklearn.linear_model import LogisticRegression
-
 model = LogisticRegression()
 model.fit(X,Y)
 pred1 = model.predict(X)
