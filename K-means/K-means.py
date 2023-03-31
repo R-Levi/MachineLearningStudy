@@ -50,30 +50,28 @@ def init_centroids(X,k):
         centroids[i] = X[index[i],:]
     return centroids
 
+if __name__ == '__main__':
 
-data = sio.loadmat('ex7data2.mat')
-X = data['X']
-data2 = pd.DataFrame(data.get('X'),columns=['X1','X2'])
-#plt.scatter(data2['X1'],data2['X2'])
-#plt.show()
-#initial_centroids = init_centroids(X,k=3)
-initial_centroids = np.array([[3, 3], [6, 2], [8, 5]])
-#centroids = find_cloest_centroids(X, initial_centroids)
-#c = compute_centroids(X, centroids, 3)
-index,centroids = run_k_means(X,initial_centroids,50)
-#print(index)#print(centroids)
+    #TODO 准备数据
+    data = sio.loadmat('ex7data2.mat')
+    X = data['X']
+    data2 = pd.DataFrame(data.get('X'),columns=['X1','X2'])
 
-c1 = X[np.where(index==0)[0],:]
-c2 = X[np.where(index==1)[0],:]
-c3 = X[np.where(index==2)[0],:]
+    #TODO 初始化聚类中心
+    initial_centroids = np.array([[3, 3], [6, 2], [8, 5]])
+    index,centroids = run_k_means(X,initial_centroids,50)
 
-fig,ax = plt.subplots(figsize = (12,8))
-ax.scatter(c1[:,0],c1[:,1],s=20,c='r',label="C1")
-ax.scatter(c2[:,0],c2[:,1],s=20,c='g',label="C2")
-ax.scatter(c3[:,0],c3[:,1],s=20,c='b',label="C3")
-ax.legend()
-#plt.savefig('exdata2.png')
-plt.show()
+    c1 = X[np.where(index==0)[0],:]
+    c2 = X[np.where(index==1)[0],:]
+    c3 = X[np.where(index==2)[0],:]
+
+    fig,ax = plt.subplots(figsize = (12,8))
+    ax.scatter(c1[:,0],c1[:,1],s=20,c='r',label="C1")
+    ax.scatter(c2[:,0],c2[:,1],s=20,c='g',label="C2")
+    ax.scatter(c3[:,0],c3[:,1],s=20,c='b',label="C3")
+    ax.legend()
+    #plt.savefig('exdata2.png')
+    plt.show()
 
 
 

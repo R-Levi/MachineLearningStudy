@@ -7,8 +7,6 @@ pic = plt.imread('curry.jpg')
 plt.imshow(pic)
 plt.show()
 '''
-
-
 # 寻找最近的聚类中心
 def find_cloest_centroids(X, centroids):
     m = X.shape[0]
@@ -60,30 +58,28 @@ img = plt.imread('curry.jpg')
 sio.savemat('out_curry.mat',{'A':img})
 '''
 
+if __name__ == '__main__':
+    #TODO 准备数据
+    image_data = sio.loadmat('bird_small.mat')
+    A = image_data['A']
+    #print(A.shape)#(128, 128, 3)
+    #归一化
+    A = A/255
+    #变成128*12*行3列
+    X = np.reshape(A,(A.shape[0]*A.shape[1],A.shape[2]))
+    #TODO 初始化聚类中心
+    centroids = init_centroids(X, 16)
+    # KMEANS
+    index,centroids = run_k_means(X,centroids,10)
+    index = index.astype(int)
+    #每个像素与聚类中心匹配
+    x_recovered = np.zeros((len(index),3))
+    for i in range(len(index)):
+        x_recovered[i] = centroids[index[i],:]
 
-
-image_data = sio.loadmat('out_curry.mat')
-A = image_data['A']
-#print(A.shape)#(128, 128, 3)
-
-#归一化
-A = A/255
-#变成128*12*行3列
-X = np.reshape(A,(A.shape[0]*A.shape[1],A.shape[2]))
-#随机初始化聚类中心
-centroids = init_centroids(X, 16)
-#迭代
-index,centroids = run_k_means(X,centroids,10)
-index = index.astype(int)
-#每个像素与聚类中心匹配
-x_recovered = np.zeros((len(index),3))
-for i in range(len(index)):
-    #print(index[i])
-    x_recovered[i] = centroids[index[i],:]
-
-# reshape to the original dimensions
-x_recovered = np.reshape(x_recovered, (A.shape[0], A.shape[1], A.shape[2]))
-plt.imshow(x_recovered)
-#plt.savefig('bird_small_res.png')
-plt.show()
+    # reshape to the original dimensions
+    x_recovered = np.reshape(x_recovered, (A.shape[0], A.shape[1], A.shape[2]))
+    plt.imshow(x_recovered)
+    #plt.savefig('bird_small_res.png')
+    plt.show()
 

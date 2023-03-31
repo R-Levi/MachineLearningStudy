@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d5e6d1d-9e4e-4cc9-a181-8b768d0dfbed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/K-means/sk_for_means.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-means/K-means.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-means/K-means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-means/K-means2.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-means/K-means_bird.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-means/bird_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-means/bird_small_res.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-means/curry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-means/exdata2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-means/out_curry.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,26 +24,30 @@
     <SUITE FILE_PATH="coverage/MachineLearningStudy$LogisticRegression.coverage" NAME="LogisticRegression Coverage Results" MODIFIED="1619013944320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/逻辑回归" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$PCA2.coverage" NAME="PCA2 Coverage Results" MODIFIED="1623140550225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$NN.coverage" NAME="NN Coverage Results" MODIFIED="1621250896416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/神经网络" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$Mean_shift.coverage" NAME="Mean_shift Coverage Results" MODIFIED="1680244573997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$sklearn_version.coverage" NAME="sklearn_version Coverage Results" MODIFIED="1680165724715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$sklearn.coverage" NAME="sklearn Coverage Results" MODIFIED="1618309356183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线性回归" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$softmax_regression.coverage" NAME="softmax_regression Coverage Results" MODIFIED="1680241650963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$pytorch_for.coverage" NAME="pytorch_for Coverage Results" MODIFIED="1680165067667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
-    <SUITE FILE_PATH="coverage/MachineLearningStudy$K_means2.coverage" NAME="K-means2 Coverage Results" MODIFIED="1623060070916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$K_means2.coverage" NAME="K-means2 Coverage Results" MODIFIED="1680242359501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$PCA.coverage" NAME="PCA Coverage Results" MODIFIED="1623683835505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$LR3.coverage" NAME="LR3 Coverage Results" MODIFIED="1680185960772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$exbase.coverage" NAME="exbase Coverage Results" MODIFIED="1619348787510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图plt" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$sklearn_LogisticRegression.coverage" NAME="sklearn_LogisticRegression Coverage Results" MODIFIED="1680167570834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$SVM3.coverage" NAME="SVM3 Coverage Results" MODIFIED="1622450255526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1622428505786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/神经网络" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$sk_for_means.coverage" NAME="sk_for_means Coverage Results" MODIFIED="1680247120726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$LR2.coverage" NAME="LR2 Coverage Results" MODIFIED="1680185924224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$1.coverage" NAME="1 Coverage Results" MODIFIED="1626336889545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$digital_recognition.coverage" NAME="digital recognition Coverage Results" MODIFIED="1680186726518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
-    <SUITE FILE_PATH="coverage/MachineLearningStudy$K_means.coverage" NAME="K-means Coverage Results" MODIFIED="1633776051855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$K_means.coverage" NAME="K-means Coverage Results" MODIFIED="1680241796103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$SVM1.coverage" NAME="SVM1 Coverage Results" MODIFIED="1622880325548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$LR.coverage" NAME="LR Coverage Results" MODIFIED="1680168352782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$SVMspam.coverage" NAME="SVMspam Coverage Results" MODIFIED="1623683849971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$SVM2.coverage" NAME="SVM2 Coverage Results" MODIFIED="1622448871321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1620905457884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$NN2.coverage" NAME="NN2 Coverage Results" MODIFIED="1626613785857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/神经网络" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$DBscan.coverage" NAME="DBscan Coverage Results" MODIFIED="1680246149920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$Test.coverage" NAME="Test Coverage Results" MODIFIED="1620386159989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/线性回归" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$test.coverage" NAME="test Coverage Results" MODIFIED="1626611810433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/绘图plt" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$sklearn_1.coverage" NAME="sklearn_1 Coverage Results" MODIFIED="1680163809768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
@@ -58,7 +71,20 @@
     <favorites_list name="MachineLearningStudy" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="sk_for_means.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/K-means/sk_for_means.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,9 +95,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
+      <find>** 2</find>
       <find>save</find>
       <find>sav</find>
+      <find>pd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,8 +128,6 @@
         <option value="$PROJECT_DIR$/SVM/SVM2.py" />
         <option value="$PROJECT_DIR$/SVM/SVM3.py" />
         <option value="$PROJECT_DIR$/SVM/SVMspam.py" />
-        <option value="$PROJECT_DIR$/K-means/K-means.py" />
-        <option value="$PROJECT_DIR$/K-means/K-means2.py" />
         <option value="$PROJECT_DIR$/PCA/PCA.py" />
         <option value="$PROJECT_DIR$/PCA/PCA2.py" />
         <option value="$PROJECT_DIR$/线性回归/BatchGradientDescent.py" />
@@ -120,6 +145,13 @@
         <option value="$PROJECT_DIR$/Logist_Regression/LR3.py" />
         <option value="$PROJECT_DIR$/Logist_Regression/digital recognition.py" />
         <option value="$PROJECT_DIR$/Logist_Regression/softmax_regression.py" />
+        <option value="$PROJECT_DIR$/K-means/K-means.py" />
+        <option value="$PROJECT_DIR$/K-means/K-means2.py" />
+        <option value="$PROJECT_DIR$/K-means/K-means_bird.py" />
+        <option value="$PROJECT_DIR$/K-means/GMM.py" />
+        <option value="$PROJECT_DIR$/K-means/Mean_shift.py" />
+        <option value="$PROJECT_DIR$/K-means/DBscan.py" />
+        <option value="$PROJECT_DIR$/K-means/sk_for_means.py" />
       </list>
     </option>
   </component>
@@ -133,10 +165,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="357" />
-    <option name="y" value="43" />
+    <option name="x" value="940" />
+    <option name="y" value="84" />
     <option name="width" value="1265" />
-    <option name="height" value="1059" />
+    <option name="height" value="1070" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,7 +186,7 @@
             <path>
               <item name="MachineLearningStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearningStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="PCA" type="462c0819:PsiDirectoryNode" />
+              <item name="Logist_Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,8 +229,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.digital recognition">
-    <configuration name="LR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sk_for_means">
+    <configuration name="DBscan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,18 +238,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logist_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-means" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logist_Regression/LR.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-means/DBscan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="LR2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="K-means" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,18 +257,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logist_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-means" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logist_Regression/LR2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-means/K-means.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="LR3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="K-means2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,18 +276,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logist_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-means" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logist_Regression/LR3.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\MachineLearningStudy\K-means\K-means_bird.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="digital recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Mean_shift" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,18 +295,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logist_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-means" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logist_Regression/digital recognition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-means/Mean_shift.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sklearn_LogisticRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sk_for_means" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,31 +314,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logist_Regression" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-means" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logist_Regression/sklearn_LogisticRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-means/sk_for_means.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.sklearn_LogisticRegression" />
-      <item itemvalue="Python.LR" />
-      <item itemvalue="Python.LR2" />
-      <item itemvalue="Python.LR3" />
-      <item itemvalue="Python.digital recognition" />
+      <item itemvalue="Python.K-means" />
+      <item itemvalue="Python.K-means2" />
+      <item itemvalue="Python.Mean_shift" />
+      <item itemvalue="Python.DBscan" />
+      <item itemvalue="Python.sk_for_means" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.digital recognition" />
-        <item itemvalue="Python.LR3" />
-        <item itemvalue="Python.LR2" />
-        <item itemvalue="Python.LR" />
-        <item itemvalue="Python.sklearn_LogisticRegression" />
+        <item itemvalue="Python.sk_for_means" />
+        <item itemvalue="Python.DBscan" />
+        <item itemvalue="Python.Mean_shift" />
+        <item itemvalue="Python.K-means2" />
+        <item itemvalue="Python.K-means" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +374,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680188516017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="null">
+      <created>1680188846099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680188846099</updated>
+    </task>
+    <task id="LOCAL-00005" summary="softmax">
+      <created>1680241729281</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680241729281</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -355,22 +401,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="7" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32722145" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32863188" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28672317" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38700566" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3079096" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32722145" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.29055008" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.22990033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.12225913" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956812" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2980226" />
       <window_info anchor="right" x="754" y="181" width="611" height="505" id="SciView" order="4" weight="0.4770764" />
-      <window_info id="Structure" order="1" sideWeight="0.50070524" side_tool="true" weight="0.16810632" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.259887" />
+      <window_info id="Structure" order="1" sideWeight="0.5032538" side_tool="true" weight="0.22990033" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44491526" />
       <window_info id="Favorites" order="2" sideWeight="0.50070524" side_tool="true" weight="0.16810632" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,7 +436,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="linear-regression" />
     <MESSAGE value="LR" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR" />
+    <MESSAGE value="null" />
+    <MESSAGE value="softmax" />
+    <option name="LAST_COMMIT_MESSAGE" value="softmax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -399,116 +448,75 @@
           <line>93</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/K-means/K-means_bird.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/K-means/K-means_bird.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/K-means/K-means_bird.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="30" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>boston['data'][:,0]</expression-string>
+        <expression-string>pre_y  = model.predict(X)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>plt.scatter(x[:,0],y,c=&quot;b&quot;,s=20)</expression-string>
+        <expression-string>iris  = load_iris()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>x[0],y</expression-string>
+        <expression-string>data[j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>load_boston()</expression-string>
+        <expression-string>accuracy(y_hat, y)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>l.detach().numpy()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>all_lo</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>all_loss.append(l)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>torch.sum()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>torch.sum(all_loss)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/线性回归/BatchGradientDescent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-means/curry.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/SVM2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/逻辑回归/digital recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/689620734/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="2238" column="4" selection-start-line="2238" selection-start-column="4" selection-end-line="2238" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/Linear C=1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/Linear C=100.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/spamSample2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/SVM1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/非线性.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/vocab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/SVMspam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/神经网络/NN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/神经网络/ex5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/线性回归/image/linear_models/skelearn_res.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/线性回归/image/linear_models/batchGradientDescent_result.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -526,12 +534,6 @@
           <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-means/bird_small.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-means/bird_small_res.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression/image/linear_models/batchGradientDescent_result.png">
       <provider selected="true" editor-type-id="images" />
@@ -574,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression/BatchGradientDescent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -611,16 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Logist_Regression/ex2data2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -629,9 +614,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Logist_Regression/sk_out.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logist_Regression/out.data">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Logist_Regression/iris.data">
       <provider selected="true" editor-type-id="text-editor" />
@@ -676,17 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Logist_Regression/sklearn_LogisticRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-628">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="e#39#90#0" expanded="true" />
-            <element signature="e#304#620#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/scipy/optimize/optimize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -698,16 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logist_Regression/softmax_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding>
-            <element signature="e#22#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,22 +691,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-means/K-means2.py">
+    <entry file="file://$PROJECT_DIR$/Logist_Regression/out.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logist_Regression/softmax_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1642">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="1450">
+          <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+          <folding>
+            <element signature="e#22#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/bird_small_res.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/bird_small.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/curry.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/exdata2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/scipy/io/matlab/mio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/K-means_bird.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
           <folding>
             <element signature="e#17#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6250">
+          <caret line="254" column="8" selection-start-line="254" selection-start-column="8" selection-end-line="254" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="856">
+            <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/K-means/K-means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="1625">
+          <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
           <folding>
             <element signature="e#9#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logist_Regression/sklearn_LogisticRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/Mean_shift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/DBscan.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="450" column="7" lean-forward="true" selection-start-line="450" selection-start-column="7" selection-end-line="450" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/sklearn/neighbors/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4297">
+          <caret line="359" column="8" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/sklearn/neighbors/_unsupervised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="141" column="21" lean-forward="true" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/sklearn/cluster/_dbscan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="272" column="8" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/sklearn/metrics/cluster/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/sklearn/metrics/cluster/_supervised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="570" column="24" lean-forward="true" selection-start-line="570" selection-start-column="24" selection-end-line="570" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/sklearn/cluster/_mean_shift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="355" column="8" selection-start-line="355" selection-start-column="8" selection-end-line="355" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-means/sk_for_means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
