@@ -22,7 +22,7 @@ class naiveBayesClassfier():
         - data: 输入数据
         - label: 预测值
         return: 概率 '''
-        self.feature = data.columns.values
+        self.feature = data.columns.values[:-1]
         row, _ = data.shape
         label = data['label']
         # 先验概率
@@ -43,7 +43,7 @@ class naiveBayesClassfier():
                 prob2[col] = prob1
             self.liklihood_prob[l] = prob2
 
-        # 证据因子
+        # 特征因子
         for col in self.feature:
             prob3 = {}
             for i, j in data[col].value_counts().to_dict().items():
@@ -54,9 +54,13 @@ class naiveBayesClassfier():
         '''计算似然概率，证据因子'''
         liklihood = 1
         evidence = 1
-        for col in input:
+        for col in self.feature:
             print(col)
             v = input[col]
+            if v not in self.liklihood_prob[res][col]:
+                liklihood = 0
+                evidence = 1
+                break
             liklihood = liklihood * self.liklihood_prob[res][col][v]
             evidence = evidence * self.evidence_prob[col][v]
 
@@ -67,15 +71,19 @@ class naiveBayesClassfier():
         - input：需要预测的数据
         return：预测的结果及概率
         '''
-        prob = {}
-        for res in self.cls:
-            liklihood, evidence = self.cal_prob(input, res)
-            prob[res] = self.prio_prob[res] * liklihood / evidence
+        prediction = []
+        probability = []
+        for i in range(len(input)):
+            prob = {}
+            for res in self.cls:
+                liklihood, evidence = self.cal_prob(input.iloc[i], res)
+                prob[res] = self.prio_prob[res] * liklihood / evidence
 
-        print(prob)
-        prediction = max(prob, key=lambda x: prob[x])
-        probability = prob[prediction]
-
+            print(prob)
+            prediction.append(max(prob, key=lambda x: prob[x]))
+            probability.append(prob[max(prob, key=lambda x: prob[x])])
+        print(prediction)
+        print(probability)
         return prediction, probability
 
 

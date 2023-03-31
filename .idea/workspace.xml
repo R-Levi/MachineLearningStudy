@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d5e6d1d-9e4e-4cc9-a181-8b768d0dfbed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Bayes/GetWeatherData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bayes/navie_bayes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bayes/sk_navie_bayes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecisionTree/Dtree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bayes/navie_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bayes/navie_bayes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MachineLearningStudy$LogisticRegression.coverage" NAME="LogisticRegression Coverage Results" MODIFIED="1619013944320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/逻辑回归" />
-    <SUITE FILE_PATH="coverage/MachineLearningStudy$navie_bayes.coverage" NAME="navie_bayes Coverage Results" MODIFIED="1680255027728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bayes" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$navie_bayes.coverage" NAME="navie_bayes Coverage Results" MODIFIED="1680257353059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bayes" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$PCA2.coverage" NAME="PCA2 Coverage Results" MODIFIED="1623140550225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$NN.coverage" NAME="NN Coverage Results" MODIFIED="1621250896416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/神经网络" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$Mean_shift.coverage" NAME="Mean_shift Coverage Results" MODIFIED="1680244573997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
@@ -74,8 +70,8 @@
       <file leaf-file-name="navie_bayes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bayes/navie_bayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-550">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="83">
+              <caret line="114" column="41" lean-forward="true" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -398,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680247148310</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bayes">
+      <created>1680255302111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680255302111</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bayes">
+      <created>1680256021666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680256021666</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -417,17 +427,17 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32722145" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32863188" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3700565" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41525424" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3079096" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32722145" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.29055008" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.14551495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.14551495" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956812" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2980226" />
       <window_info anchor="right" x="754" y="181" width="611" height="505" id="SciView" order="4" weight="0.4770764" />
       <window_info id="Structure" order="1" sideWeight="0.5032538" side_tool="true" weight="0.22990033" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22740114" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3064972" />
       <window_info id="Favorites" order="2" sideWeight="0.50070524" side_tool="true" weight="0.16810632" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,7 +459,8 @@
     <MESSAGE value="null" />
     <MESSAGE value="softmax" />
     <MESSAGE value="Kmeans" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kmeans" />
+    <MESSAGE value="Bayes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bayes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,63 +487,64 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Bayes/navie_bayes.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Bayes/navie_bayes.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="49" />
+          <line>81</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="50" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="63" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>data[data[:,-1]==&quot;是&quot;]</expression-string>
+        <expression-string>max(prob, key=lambda x: prob[x])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data[data[:,-1]==l]</expression-string>
+        <expression-string>prob[prediction]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>for c in cls:
-     self.prio_prob[c] = len(np.where(label==c)[0])/row</expression-string>
+        <expression-string>v = input[col]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>cls = np.unique(label)</expression-string>
+        <expression-string>input[col]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>label = data[:,-1]</expression-string>
+        <expression-string>input[col].value</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>row, _ = data.shape</expression-string>
+        <expression-string>input[col].values[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>train = np.asarray(train)</expression-string>
+        <expression-string>input.iloc[i]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>train[]</expression-string>
+        <expression-string>self.evidence_prob[col]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>train</expression-string>
+        <expression-string>self.evidence_pros[col]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -586,13 +598,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="947" selection-start-line="947" selection-end-line="947" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -883,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="5140" selection-start-line="5140" selection-end-line="5140" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/sklearn/naive_bayes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -920,10 +918,24 @@
     <entry file="file://$PROJECT_DIR$/DecisionTree/Dtree.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="1668" selection-start-line="1668" selection-end-line="1668" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bayes/navie_bayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="83">
+          <caret line="114" column="41" lean-forward="true" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
