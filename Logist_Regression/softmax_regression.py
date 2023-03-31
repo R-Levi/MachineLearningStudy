@@ -12,7 +12,7 @@ def softmax(X):
     return X_exp / partition
 
 def cross_entropy(y_hat, y):
-    return - torch.log(y_hat[range(len(y_hat)), y])
+    return - torch.log(y_hat[range(y_hat.shape[0]), int(y-1)])
 
 def accuracy(y_hat, y):
     """计算预测正确的数量"""
@@ -21,16 +21,16 @@ def accuracy(y_hat, y):
     cmp = y_hat.type(y.dtype) == y
     return float(cmp.type(y.dtype).sum())
 
-def train_epoch(net, train_iter, loss, updater):  #@save
+def train_epoch(net, X,Y, loss, updater):  #@save
     # 将模型设置为训练模式
     if isinstance(net, torch.nn.Module):
         net.train()
     # 训练损失总和、训练准确度总和、样本数
     all_loss = []
     train_acc = []
-    for X, y in train_iter:
+    for x, y in zip(X,Y):
         # 计算梯度并更新参数
-        y_hat = net(X)
+        y_hat = net(x)
         l = loss(y_hat, y)
         if isinstance(updater, torch.optim.Optimizer):
             # 使用PyTorch内置的优化器和损失函数
@@ -41,23 +41,24 @@ def train_epoch(net, train_iter, loss, updater):  #@save
             # 使用定制的优化器和损失函数
             l.sum().backward()
             updater(X.shape[0])
-        all_loss.append(l)
+        all_loss.append(l.detach().numpy())
         train_acc.append(accuracy(y_hat, y))
-    return
+    return np.average(all_loss),np.average(train_acc)
 
 if __name__ == '__main__':
     # 读取matlab的数据集，包括是20*20的像素以及0-9标签
     matinfo = sio.loadmat("ex3data1.mat")
-    X = matinfo['X']  # 20*20像素
-    Y = matinfo['y'][:, 0]  # 标签
+    X = torch.tensor(matinfo['X'],dtype=torch.float32) # 20*20像素
+    Y = torch.tensor(matinfo['y'][:, 0],dtype=torch.float32)  # 标签
 
     num_inputs = 400
     num_outputs = 10
     W = torch.normal(0, 0.01, size=(num_inputs, num_outputs), requires_grad=True)
     b = torch.zeros(num_outputs, requires_grad=True)
 
-    model = net()
-    loss = cross_entropy()
-    updater = torch.optim.SGD((W,b),lr=0.001)
+    model = net
+    loss = cross_entropy
+    updater = torch.optim.SGD((W,b),lr=0.1)
     for epoch in range(10):
         train_metrics = train_epoch(model, X,Y, loss, updater)
+        print(train_metrics)
