@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d5e6d1d-9e4e-4cc9-a181-8b768d0dfbed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/K-means/sk_for_means.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bayes/GetWeatherData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bayes/navie_bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bayes/sk_navie_bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTree/Dtree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-means/K-means.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-means/K-means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-means/K-means2.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-means/K-means_bird.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-means/bird_small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-means/bird_small_res.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-means/curry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-means/exdata2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-means/out_curry.mat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MachineLearningStudy$LogisticRegression.coverage" NAME="LogisticRegression Coverage Results" MODIFIED="1619013944320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/逻辑回归" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$navie_bayes.coverage" NAME="navie_bayes Coverage Results" MODIFIED="1680255027728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bayes" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$PCA2.coverage" NAME="PCA2 Coverage Results" MODIFIED="1623140550225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PCA" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$NN.coverage" NAME="NN Coverage Results" MODIFIED="1621250896416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/神经网络" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$Mean_shift.coverage" NAME="Mean_shift Coverage Results" MODIFIED="1680244573997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
@@ -36,8 +33,10 @@
     <SUITE FILE_PATH="coverage/MachineLearningStudy$sklearn_LogisticRegression.coverage" NAME="sklearn_LogisticRegression Coverage Results" MODIFIED="1680167570834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$SVM3.coverage" NAME="SVM3 Coverage Results" MODIFIED="1622450255526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SVM" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1622428505786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/神经网络" />
-    <SUITE FILE_PATH="coverage/MachineLearningStudy$sk_for_means.coverage" NAME="sk_for_means Coverage Results" MODIFIED="1680247120726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$sk_for_means.coverage" NAME="sk_for_means Coverage Results" MODIFIED="1680250255752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$sk_navie_bayes.coverage" NAME="sk_navie_bayes Coverage Results" MODIFIED="1680251432055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bayes" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$LR2.coverage" NAME="LR2 Coverage Results" MODIFIED="1680185924224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
+    <SUITE FILE_PATH="coverage/MachineLearningStudy$GetWeatherData.coverage" NAME="GetWeatherData Coverage Results" MODIFIED="1680253698014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bayes" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$1.coverage" NAME="1 Coverage Results" MODIFIED="1626336889545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$digital_recognition.coverage" NAME="digital recognition Coverage Results" MODIFIED="1680186726518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logist_Regression" />
     <SUITE FILE_PATH="coverage/MachineLearningStudy$K_means.coverage" NAME="K-means Coverage Results" MODIFIED="1680241796103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-means" />
@@ -72,13 +71,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sk_for_means.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/K-means/sk_for_means.py">
+      <file leaf-file-name="navie_bayes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bayes/navie_bayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="-550">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,6 +151,10 @@
         <option value="$PROJECT_DIR$/K-means/Mean_shift.py" />
         <option value="$PROJECT_DIR$/K-means/DBscan.py" />
         <option value="$PROJECT_DIR$/K-means/sk_for_means.py" />
+        <option value="$PROJECT_DIR$/Bayes/sk_navie_bayes.py" />
+        <option value="$PROJECT_DIR$/Bayes/GetWeatherData.py" />
+        <option value="$PROJECT_DIR$/DecisionTree/Dtree.py" />
+        <option value="$PROJECT_DIR$/Bayes/navie_bayes.py" />
       </list>
     </option>
   </component>
@@ -186,7 +189,7 @@
             <path>
               <item name="MachineLearningStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearningStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Logist_Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="Bayes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sk_for_means">
+  <component name="RunManager" selected="Python.navie_bayes">
     <configuration name="DBscan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,7 +252,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="K-means" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GetWeatherData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,18 +260,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-means" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-means/K-means.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bayes/GetWeatherData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="K-means2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="navie_bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearningStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,31 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-means" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bayes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\PycharmProjects\MachineLearningStudy\K-means\K-means_bird.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Mean_shift" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MachineLearningStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-means" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-means/Mean_shift.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bayes/navie_bayes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,20 +309,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="sk_navie_bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MachineLearningStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bayes/sk_navie_bayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.K-means" />
-      <item itemvalue="Python.K-means2" />
-      <item itemvalue="Python.Mean_shift" />
       <item itemvalue="Python.DBscan" />
       <item itemvalue="Python.sk_for_means" />
+      <item itemvalue="Python.navie_bayes" />
+      <item itemvalue="Python.sk_navie_bayes" />
+      <item itemvalue="Python.GetWeatherData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.navie_bayes" />
+        <item itemvalue="Python.GetWeatherData" />
+        <item itemvalue="Python.sk_navie_bayes" />
         <item itemvalue="Python.sk_for_means" />
         <item itemvalue="Python.DBscan" />
-        <item itemvalue="Python.Mean_shift" />
-        <item itemvalue="Python.K-means2" />
-        <item itemvalue="Python.K-means" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680241729281</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Kmeans">
+      <created>1680247148310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680247148310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -407,17 +417,17 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32722145" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32863188" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38700566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3700565" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3079096" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32722145" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.29055008" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.12225913" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967462" visible="true" weight="0.14551495" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956812" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2980226" />
       <window_info anchor="right" x="754" y="181" width="611" height="505" id="SciView" order="4" weight="0.4770764" />
       <window_info id="Structure" order="1" sideWeight="0.5032538" side_tool="true" weight="0.22990033" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44491526" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22740114" />
       <window_info id="Favorites" order="2" sideWeight="0.50070524" side_tool="true" weight="0.16810632" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,7 +448,8 @@
     <MESSAGE value="LR" />
     <MESSAGE value="null" />
     <MESSAGE value="softmax" />
-    <option name="LAST_COMMIT_MESSAGE" value="softmax" />
+    <MESSAGE value="Kmeans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kmeans" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -463,91 +474,118 @@
           <line>80</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Bayes/navie_bayes.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Bayes/navie_bayes.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="50" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>data[data[:,-1]==&quot;是&quot;]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data[data[:,-1]==l]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for c in cls:
+     self.prio_prob[c] = len(np.where(label==c)[0])/row</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cls = np.unique(label)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>label = data[:,-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row, _ = data.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train = np.asarray(train)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train[]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>pre_y  = model.predict(X)</expression-string>
+        <expression-string>cls = np.unique(label)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>iris  = load_iris()</expression-string>
+        <expression-string>label.value_counts().to_dict().items()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data[j]</expression-string>
+        <expression-string>data_values[label].value_counts().to_dict().items():</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>accuracy(y_hat, y)</expression-string>
+        <expression-string>data_values[label]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>l.detach().numpy()</expression-string>
+        <expression-string>data_values[label].value_counts().to_dict().items()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>all_lo</expression-string>
+        <expression-string>row, _ = data.values.shape</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>all_loss.append(l)</expression-string>
+        <expression-string>data.values</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>torch.sum()</expression-string>
+        <expression-string>data</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>torch.sum(all_loss)</expression-string>
+        <expression-string>data.shape</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/线性回归/image/linear_models/batchGradientDescent_result.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.me" />
-    <entry file="file://$PROJECT_DIR$/线性回归/sklearn_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Regression/image/linear_models/batchGradientDescent_result.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Regression/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Regression/image/linear_models/skelearn_res.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/torch/nn/modules/module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -841,6 +879,53 @@
           <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="5140" selection-start-line="5140" selection-end-line="5140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/dl/Lib/site-packages/sklearn/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="180" column="8" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/sk_navie_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/weather.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/GetWeatherData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/Dtree.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/navie_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
