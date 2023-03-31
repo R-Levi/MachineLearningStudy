@@ -9,7 +9,7 @@ class naiveBayesClassfier():
     fit: 训练分类器
     predict：预测分类结果
     '''
-    def __init__(self,feature):
+    def __init__(self):
         # 先验概率
         self.prio_prob = {}
         # 似然函数
@@ -22,21 +22,21 @@ class naiveBayesClassfier():
         - data: 输入数据
         - label: 预测值
         return: 概率 '''
-
+        self.feature = data.columns.values
         row, _ = data.shape
-        label = data[:,-1]
+        label = data['label']
         # 先验概率
         cls = np.unique(label)
         self.cls = cls
         for c in cls:
             self.prio_prob[c] = len(np.where(label==c)[0])/row
 
-        # 条件概率的乘积
+        # 似然
         for l in cls:
-            data_n = data[data[:,-1]==l]
+            data_n = data[data['label']==l]
             row_n, _ = data_n.shape
             prob2 = {}
-            for col in self.features:
+            for col in self.feature:
                 prob1 = {}
                 for i, j in data_n[col].value_counts().to_dict().items():
                     prob1[i] = j / row_n
@@ -44,7 +44,7 @@ class naiveBayesClassfier():
             self.liklihood_prob[l] = prob2
 
         # 证据因子
-        for col in self.features:
+        for col in self.feature:
             prob3 = {}
             for i, j in data[col].value_counts().to_dict().items():
                 prob3[i] = j / row
@@ -110,11 +110,11 @@ if __name__ == '__main__':
             ["雨天", "中温", "高湿", "大", "否"],
             ["晴朗", "中温", "高湿", "大", "否"]
             ]
-    train = data[:12]
-    test = data[12:]
 
-    train = np.asarray(train)
-    test = np.asarray(test)
+    data = pd.DataFrame(data=data,columns=['outlook','Temperature','Humidity','Wind','label'])
+    train,test = train_test_split(data,test_size=2)
 
-    model = naiveBayesClassfier(feature = ['outlook','Temperature','Humidity','Wind'])
+
+    model = naiveBayesClassfier()
     model.fit(train)
+    model.predict(test)
