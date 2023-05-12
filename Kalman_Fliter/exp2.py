@@ -55,11 +55,11 @@ cv2.setIdentity(kf.measurementNoiseCov)
 # for i in range(len(kf.measurementNoiseCov)):
 #     kf.measurementNoiseCov[i,i] = 1e-1
 
-video_cap = cv2.VideoCapture('./video/green_ball.mp4')
+video_cap = cv2.VideoCapture('green_ball.mp4')
 # 视频输出
 fps = video_cap.get(cv2.CAP_PROP_FPS)  # 获得视频帧率，即每秒多少帧
 size = (int(video_cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(video_cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
-videoWriter = cv2.VideoWriter('./video/new_green.mp4', cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps, size)
+videoWriter = cv2.VideoWriter('new_green.mp4', cv2.VideoWriter_fourcc('m', 'p', '4', 'v'), fps, size)
 ticks = 0
 i = 0
 found = False
